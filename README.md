@@ -36,14 +36,14 @@ This project is a command-line interface (CLI) tool for performing CRUD (Create,
 
 2. Create and activate a virtual environment:
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`>
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. Install dependencies:
 
-```bash
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 
 4. Set up the database:
 
