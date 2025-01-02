@@ -34,26 +34,29 @@ This project is a command-line interface (CLI) tool for performing CRUD (Create,
    git clone <repository-url>
    cd <repository-directory>
 
-Create and activate a virtual environment:
+2. Create and activate a virtual environment:
 
-bash
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-Install dependencies:
+3. Install dependencies:
 
-bash
+```bash
 pip install -r requirements.txt
-Set up the database:
+
+4. Set up the database:
 
 Make sure PostgreSQL is running.
 Create a database:
-sql
+```sql
 CREATE DATABASE mydatabase;
-Update the database URL in alembic.ini and your SQLAlchemy configuration.
-Run Alembic migrations:
 
-bash
+Update the database URL in alembic.ini and your SQLAlchemy configuration.
+
+5. Run Alembic migrations:
+
+```bash
 alembic upgrade head
 
 # goit-pythonweb-hw-06
