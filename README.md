@@ -33,7 +33,7 @@ This project is a command-line interface (CLI) tool for performing CRUD (Create,
    ```bash
    git clone <repository-url>
    cd <repository-directory>
-   ```
+```
 
 2. Create and activate a virtual environment:
 
