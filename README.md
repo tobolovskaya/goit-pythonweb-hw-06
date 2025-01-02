@@ -40,4 +40,20 @@ bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
+Install dependencies:
+
+bash
+pip install -r requirements.txt
+Set up the database:
+
+Make sure PostgreSQL is running.
+Create a database:
+sql
+CREATE DATABASE mydatabase;
+Update the database URL in alembic.ini and your SQLAlchemy configuration.
+Run Alembic migrations:
+
+bash
+alembic upgrade head
+
 # goit-pythonweb-hw-06
